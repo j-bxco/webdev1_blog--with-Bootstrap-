@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Webpage</title>
+        <style>
+            html {
+                height: -webkit-fill-available;
+            }
+
+            body {
+                background-color: #062a3f !important;
+                min-height: 100vh;
+                min-height: -webkit-fill-available;
+                width: 100%;
+            }
+
+            main {
+                display: flex;
+                flex-wrap: nowrap;
+                height: 100vh;
+                height: -webkit-fill-available;
+                max-height: 100vh;
+                overflow-x: auto;
+                overflow-y: hidden;
+            }
+
+            .d-flex {
+                background-color: #d8e2e7 !important;
+            }
+
+            .d-flex a {
+                color: #19516a !important;
+                text-decoration: none;
+            }
+            
+            .nav-link.active {
+                background-color: #acb6bb !important;
+            }
+
+            .container {
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-basis: fill;
+                margin-top: auto;
+                margin-left: 300px;
+                min-height: 100vh;
+                height: auto;
+                overflow-y: auto;
+            }
+            
+            .row {
+                display: flex;
+                padding: 20px;
+                align-items: center !important;
+                justify-content: center;
+                align-self: center;
+                flex: 0 1 auto;
+                min-width: 100%;
+                width: auto;
+                min-height: 100%;
+                height: auto;
+            }            
+
+            .col-lg-8 {
+                padding: 20px;
+                flex: 1 1 auto;
+                overflow-wrap: break-word;
+                min-height: 100%;
+                height: auto;
+            }
+
+            .col-lg-4 {
+                padding: 10px;
+                flex: 1 0 auto;
+                width: auto;
+                overflow-wrap: break-word;
+                min-height: 100%;
+                height: auto;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .container p, h1 {
+                color: #e3c2c9;
+            }
+            
+
+        </style>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    
+    <body>
+        <main>
+        <!-- Side Bar Navigation -->
+        <div class="d-flex flex-column flex-shrink-0 p-4" style="width: 300px; height: 100vh;">
+            <h2 style="font-size: 35px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                <strong><a href="index.html">PERSONAL WEBSITE</a></strong>
+            </h2>
+            <hr>
+            <ul class="nav nav-pills flex-column" style="font-size: 20px;">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li>
+                    <a href="AboutMe.html" class="nav-link">About Me</a>
+                </li>
+                <li>
+                    <a href="Gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="nav-link">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- BODY TEXT -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">  
+                    <h1 style="font-size: 50px; font-family: Georgia, 'Times New Roman', Times, serif;"><strong>Hi, I'm Julia.</strong></h1>
+                    <p style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif; line-height: 1.1cm;">I'm a BS Information Technology student.<br/>
+                        I hope to be a software developer one day.<br/>
+                        I also make websites, just like this.</p>
+                    <p style="font-size: 28px; font-family: Verdana, Geneva, Tahoma, sans-serif; line-height: 1.1cm;">Want to know more about me? 
+                        Click <a style="color:#dfdcc1;"href="AboutMe.html">here</a>!</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="MainPic.jpg" alt="My Picture" title="My display picture for this webpage." class="center" width="300" height="300" style="padding: 1px;">
+                </div>
+            </div>
+        </div>
+        </main>
+        <script src="" async defer></script>
+    </body>
+</html>
